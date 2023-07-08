@@ -2,6 +2,7 @@
 docker-compose==1.24.0
 django==1.7.1
 PyJWT==0.4.2
-requests==2.20.1
+requests==2.31.0
 feedparser==5.1.1
 pycrypto==2.4
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
